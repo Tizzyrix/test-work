@@ -1,0 +1,79 @@
+.book-card__wrapper {
+    // margin: 30px 30px;
+    margin: 2% 2%;
+    .book-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 350px;
+        height: 400px;
+        margin: 0 auto;
+        background: #d3d3d3;
+        // border-radius: 20px;
+        .book-card__img {
+            -webkit-box-shadow: 7px 7px 8px 1px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 7px 7px 8px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 7px 7px 8px 1px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            img {
+                width: 140px;
+                height: 200px;
+            }
+        }
+        .book-card__categories {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 10px;
+            align-self: flex-start;
+            span {
+                font-family: 'Comfortaa', cursive;
+                font-weight: 300;
+                font-size: 14px;
+                color: #808080;
+                text-decoration: underline;
+            }
+        }
+        .book-card__title {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 10px;
+            align-self: flex-start;
+            max-height: 75px;
+            overflow: hidden;
+            h2 {
+                font-family: 'Comfortaa', cursive;
+                font-weight: 400;
+                font-size: 18px;
+                color: #000;
+            }
+        }
+        .book-card__authors {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 10px;
+            align-self: flex-start;
+            .book-card__authors-list {
+                display: flex;
+                flex-wrap: wrap;
+                .book-card__authors-item {
+                    font-family: 'Comfortaa', cursive;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #808080;;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .book-card__wrapper {
+        .book-card {
+            width: 310px;
+        }
+    }
+}

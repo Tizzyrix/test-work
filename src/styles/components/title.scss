@@ -1,0 +1,23 @@
+.title__wrapper {
+    // margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .title {
+        h1 {
+            font-family: 'Comfortaa', cursive;
+            font-weight: 700;
+            font-size: 48px;
+            color: #000;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .title__wrapper {
+        .title {
+            h1 {
+                font-size: 34px;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    background-color: brown;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    .error__title {
+    }
+    .error__text {
+        font-size: 18px;
+    }
+}

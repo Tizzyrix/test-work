@@ -1,0 +1,46 @@
+.book-list__wrapper {
+    .book-counter__wrapper {
+        display: flex;
+        justify-content: center;
+        .book-counter {
+            margin-top: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                font-family: 'Comfortaa', cursive;
+                font-weight: 700;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+    }
+    .book-list__wrapper {
+        display: flex;
+        justify-content: center;
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .load-more__wrapper {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        .load-more {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: peru;
+            .load-more__text {
+                font-size: 18px;
+            }
+        }
+    }
+}
